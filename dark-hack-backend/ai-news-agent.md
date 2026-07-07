@@ -48,16 +48,23 @@ ArticleSource (article_sources table) برای جلوگیری از تکرار
 7. Meta AI Blog
 8. DeepMind Blog
 
+## زبان‌ها
+
+سه زبان: فارسی (fa)، انگلیسی (en)، عربی (ar)
+
 ## ساختار خروجی AI
 
 ```json
 {
   "title_fa": "عنوان فارسی",
   "title_en": "English Title",
+  "title_ar": "عنوان عربي",
   "content_fa": "محتوای کامل فارسی (Markdown)",
   "content_en": "Full English content (Markdown)",
+  "content_ar": "المحتوى الكامل بالعربية (Markdown)",
   "excerpt_fa": "خلاصه فارسی",
   "excerpt_en": "English excerpt",
+  "excerpt_ar": "ملخص بالعربية",
   "tags": "AI, Deep Learning, LLM",
   "imageUrl": "...",
   "sourceUrl": "..."
